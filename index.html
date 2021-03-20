@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main>
+            <h1 class="checked gradient-background gradient-background-clip gradient-text">!!! RGB in action !!!</h1>
+            <p class="checked gradient-background gradient-background-clip gradient-text">well we have used three css
+                prob to get this nice effect these are </p>
+            <ul class="checked gradient-background gradient-background-clip gradient-text">
+                <li>background :lineaar-gradient()</li>
+                <li>background-clip: text (-webkit is required sadly)</li>
+                <li>text-fill-color: transparent (-webkit is required sadly)</li>
+            </ul>
+            <div class="box">
+                <h2>try Different combination to see how this works-</h2>
+                <p>please press each checkbox twice to go to original state</p>
+                <input onchange type="checkbox" name="v1" id="v1">
+                <label for="v1">to change background :lineaar-gradient</label><br>
+                <input onchange type="checkbox" name="v2" id="v2">
+                <label for="v2">to change background-clip</label> <br>
+                <input onchange type="checkbox" name="v3" id="v3">
+                <label for="v3">to change text-fill-color</label>
+            </div>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+
+</html>

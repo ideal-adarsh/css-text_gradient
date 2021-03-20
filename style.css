@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    height: 100vh;
+    background-color:antiquewhite;
+    font-size: 18px;
+}
+main{
+    width: 80%;
+    margin: 20px auto;
+    background-color:white;
+}
+
+.gradient-background{
+    background: linear-gradient(to right, red,orange,rgb(255, 23, 236),green,blue,indigo,violet);
+}
+.gradient-background-clip{
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.gradient-text{
+    -webkit-text-fill-color: transparent;
+}
+
+
+.checked{
+    padding: 5px ;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+ul.checked{
+    list-style-type: none;
+}
+ul.checked li{
+    padding: 10px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+.box > h2:nth-child(1){
+    padding-bottom: 5px;
+}
+
+
+
